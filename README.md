@@ -19,8 +19,8 @@ Kayla Sison
 | `notebooks/` | Directory containing the analytical pipeline. |
 | `notebooks/eda.ipynb` | Exploratory Data Analysis: Data quality assessment and trend visualization. |
 | `notebooks/forecasting.ipynb` | The core forecasting engine: Implements linear regression and seasonal profiles. |
-| `outputs/` | Generated artifacts, including `forecast.csv` with final predictions. |
-| `presentations/` | Project deliverables, including the `slide_deck.pptx`. |
+| `output/` | Generated artifact - `forecast.csv` with final predictions. |
+| `presentation/` | Project deliverables - slide deck and video presentation. |
 | `README.md` | Project overview, methodology, and repository documentation. |
 | `requirements.txt` | Python dependencies (Pandas, NumPy, Scipy, etc.). |
 
