@@ -1,6 +1,6 @@
 # Workforce Planning: Call Volume & Capacity Forecasting
 
-This repository contains the end-to-end forecasting engine developed for the **UIUC Statistics Datathon 2026**. The project focuses on predicting daily and interval-level call volumes, Average Handle Time (CCT), and Abandonment Rates for four distinct business portfolios (A, B, C, and D) to optimize staffing requirements for August 2025.
+This repository contains the end-to-end forecasting engine developed for the **UIUC Statistics Datathon 2026**. The project focuses on predicting daily and interval-level Call  Volume (CV) , Customer Care Time (CCT), and Abandonment Rates for four distinct business portfolios (A, B, C, and D) to optimize staffing requirements for August 2025 using historical data from 2024 and 2025.
 
 ##  Team Members
 
