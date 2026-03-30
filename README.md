@@ -26,16 +26,16 @@ Kayla Sison
 
 ##  Project Overview
 
-The challenge involved synthesizing two years of daily historical data with granular 30-minute interval data to create a high-fidelity forecast.
+The challenge involved synthesizing two years of daily historical data with granular 30-minute interval data to create a modular and scalable forecasting model.
 
 ### Key Features:
-* **Multi-Portfolio Analysis:** Managed four separate portfolios (A, B, C, D) with unique volume signatures.
-* **Intraday Profiling:** Derived 48-slot daily interval shapes to distribute daily forecasts into actionable schedules.
+* **Multi-Portfolio Analysis:** Managed four separate portfolios (A, B, C, D) with different volumes.
+* **Intraday Profiling:** Derived 48-slot daily interval shapes to distribute daily forecasts into 30-minute intervals.
 * **Validation Suite:** Automated integrity checks to ensure zero negative volumes and valid abandonment rates (0-1).
 
 ## Methodology
 
-The forecasting and capacity planning engine was built using a rigorous, multi-step statistical pipeline designed to handle anomalies, capture trends, and optimize for business risk:
+The forecasting model was built using a rigorous, a multi-step statistical pipeline designed to handle anomalies, capture trends, and optimize for business risk:
 
 1. **Data Cleaning & "Corrupt Day" Handling:** Holiday schedules caused massive deviations in historical data (e.g., Portfolio C dropping to zero calls on a day that typically sees 20,000+). To fix this, 8 recognized holidays were flagged as "corrupt days." The missing or anomalous data was replaced using a **trimmed mean** calculated from the surrounding 4 weeks for that specific day of the week. The highest and lowest values in that 4-week sample were removed to prevent other anomalies from skewing the imputed replacement value.
 
