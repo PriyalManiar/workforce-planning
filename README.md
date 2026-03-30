@@ -31,7 +31,7 @@ The challenge involved synthesizing two years of daily historical data with gran
 ### Key Features:
 * **Multi-Portfolio Analysis:** Managed four separate portfolios (A, B, C, D) with different volumes.
 * **Intraday Profiling:** Derived 48-slot daily interval shapes to distribute daily forecasts into 30-minute intervals.
-* **Validation Suite:** Automated integrity checks to ensure zero negative volumes and valid abandonment rates (0-1).
+* **Validation:** Automated integrity checks to ensure zero negative volumes and valid abandonment rates (0-1).
 
 ## Methodology
 
